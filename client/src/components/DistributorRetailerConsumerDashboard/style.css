@@ -1,0 +1,42 @@
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  margin: 10px 0;
+}
+
+.product-status img {
+  height: 64px;
+  width: 64px;
+}
+
+#timeline {
+  margin: 10px 0;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.timeline-item::before {
+  content: "•";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: -24px;
+  top: 30%;
+  color: lightgrey;
+}

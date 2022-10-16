@@ -1,0 +1,31 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-type {
+  padding: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+#type-manufacturer-dashboard {
+  background-color: #f44336;
+  color: white;
+}
+
+#type-distributor-dashboard {
+  background-color: #ffc107;
+  color: black;
+}
+
+#type-retailer-dashboard {
+  background-color: #3f51b5;
+  color: white;
+}
+
+#type-consumer-dashboard {
+  background-color: #00c853;
+  color: white;
+}
